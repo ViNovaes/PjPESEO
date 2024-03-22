@@ -8,13 +8,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import Header from './components/Header/Header';
 import Cadastro from './components/Cadastro/Cadastro';
-import Home from './components/Home/Home';
-import Login from './components/Login/Login'
+import Home from './components/pgInicial/PgInicial';
+import Sobre from './components/Sobre/Sobre'
 
 function App() {
   return (
     <div className="App">
-        <Home/>
+        {/* <Home/> */}
+        <Sobre/>
     </div>
   );
 }
